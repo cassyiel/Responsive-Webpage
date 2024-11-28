@@ -1,0 +1,77 @@
+* {
+    font-family: bahnschrift light;   
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient( black 5%, white 35%);
+    background-repeat: no-repeat;
+	background-size: 100%;
+    background-size: cover;
+}
+
+#wayne {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 600px;
+    letter-spacing: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.web {
+    display: flex;
+    margin: 10px;
+}
+
+@media (max-width: 1250px) {
+
+    .web {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+        transform: scale(1);
+    }
+    
+  }
+
+.image1, .image2 {
+    margin: 40px;
+    padding: 25px 20px 25px 20px;
+    background-color: white;
+    max-width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.name {
+    letter-spacing: 7px;
+    font-size: 15px;
+    padding: 15px 0px 15px 0px;
+    font-weight: 1000;
+}
+
+.web p {
+    color: black;   
+    text-align: justify;
+}
+
+.nameandsection {
+    float: right;
+    color: black;
+    font-size: 10px;
+}
